@@ -3,34 +3,49 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <title>Die Bruchpiloten</title>
+    <link href="https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911" rel="stylesheet">
+    <style>
+html, body {
+  box-sizing: border-box;
+  padding: 0; margin: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-size: 1rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 30rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+img {
+  max-width: 100%;
+}
+    </style>
+    <title>Die Bruchpiloten AG</title>
   </head>
 
   <body>
-    <div id="container">
-      <div class="inner" style="text-align:center">
-
-        <header>
-          <h1>Die Bruchpiloten</h1>
-        </header>
-
-        <section id="main_content">
-          <h3>
-            <a href="mailto:kontakt@diebruchpiloten.com">kontakt@diebruchpiloten.com</a>
-          </h3>
-          <p>
-            Die Bruchpiloten AG / Molkenstrasse 21 / CH-8004 Zürich
-          </p>
-        </section>
-
-      </div>
+    <div class="container">
+      <img src="bruchpiloten.jpg" alt="Die Bruchpiloten"/>
+      <h1>Die Bruchpiloten AG</h1>
+      <p>
+        Molkenstrasse 21 &middot; 8004 Zürich
+        <br>
+        <a href="mailto:kontakt@diebruchpiloten.com">kontakt@diebruchpiloten.com</a>
+      </p>
     </div>
   </body>
 </html>
